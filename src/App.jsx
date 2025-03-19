@@ -32,7 +32,7 @@ export const App = () => {
       return a.length - b.length;
     }
 
-    return goods;
+    return 0;
   });
 
   if (reversed) {
@@ -94,7 +94,7 @@ export const App = () => {
 
       <ul>
         {goods.map(good => (
-          <li data-cy="Good" key={goods.indexOf(good)}>
+          <li data-cy="Good" key={good}>
             {good}
           </li>
         ))}
